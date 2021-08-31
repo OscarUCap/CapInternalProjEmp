@@ -1,0 +1,45 @@
+
+@model IEnumerable<Employee>
+
+@{
+    ViewBag.Title = "Employee List";
+}
+
+<table class="table table-striped table-sm mt-3">
+    <thead>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Department</th>
+        <th class="table-active">---</th>
+    </thead>
+
+    <tbody>
+        <div>
+            @foreach (var employee in Model)
+            {
+                <tr>
+                    <td>@employee.Id</td>
+                    <td>@employee.Name</td>
+                    <td>@employee.Email</td>
+                    <td>@employee.Department</td>
+                    <td>
+                        <a asp-controller="Employee" asp-action="Details" asp-route-id="@employee.Id">View</a> | 
+                        <a asp-controller="Employee" asp-action="Edit" asp-route-id="@employee.Id">Edit</a> | 
+                        <a asp-controller="Employee" asp-action="Delete" asp-route-id="@employee.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </div>
+    </tbody>
+</table>
+
+<pre></pre>
+<div id="container"> 
+    <form method="post" asp-controller="Home" asp-action="Import" enctype="multipart/form-data">
+        
+        <input type="file" name="file">
+        <button type="submit">Import from Excel</button>
+    
+    </form>
+</div>

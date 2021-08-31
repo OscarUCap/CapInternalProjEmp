@@ -15624,6 +15624,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\osuribe\\OneDrive - Capgemini\\Documents\\ASP NET Core\\__Project\\CapInternalProjEmp\\Views\\Employee\\List.cshtml",
+      "TargetPath": "Views\\Employee\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\osuribe\\OneDrive - Capgemini\\Documents\\ASP NET Core\\__Project\\CapInternalProjEmp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -15651,6 +15656,11 @@
     {
       "FilePath": "c:\\Users\\osuribe\\OneDrive - Capgemini\\Documents\\ASP NET Core\\__Project\\CapInternalProjEmp\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\osuribe\\OneDrive - Capgemini\\Documents\\ASP NET Core\\__Project\\CapInternalProjEmp\\Views\\Employee\\Create.cshtml",
+      "TargetPath": "Views\\Employee\\Create.cshtml",
       "FileKind": "mvc"
     }
   ],
