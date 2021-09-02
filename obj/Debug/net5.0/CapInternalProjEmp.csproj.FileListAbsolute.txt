@@ -73,3 +73,5 @@ C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapIntern
 C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapInternalProjEmp\obj\Debug\net5.0\CapInternalProjEmp.genruntimeconfig.cache
 C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapInternalProjEmp\obj\Debug\net5.0\Razor\Views\Employee\List.cshtml.g.cs
 C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapInternalProjEmp\obj\Debug\net5.0\Razor\Views\Employee\Create.cshtml.g.cs
+C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapInternalProjEmp\obj\Debug\net5.0\Razor\Views\Employee\Edit.cshtml.g.cs
+C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapInternalProjEmp\obj\Debug\net5.0\Razor\Views\Employee\Details.cshtml.g.cs

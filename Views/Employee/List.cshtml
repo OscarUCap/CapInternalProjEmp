@@ -1,6 +1,7 @@
 
 @model IEnumerable<Employee>
 
+
 @{
     ViewBag.Title = "Employee List";
 }
@@ -24,15 +25,19 @@
                     <td>@employee.Email</td>
                     <td>@employee.Department</td>
                     <td>
+                        <div>
                         <a asp-controller="Employee" asp-action="Details" asp-route-id="@employee.Id">View</a> | 
                         <a asp-controller="Employee" asp-action="Edit" asp-route-id="@employee.Id">Edit</a> | 
                         <a asp-controller="Employee" asp-action="Delete" asp-route-id="@employee.Id">Delete</a>
+                        </div>
                     </td>
                 </tr>
             }
         </div>
     </tbody>
 </table>
+
+
 
 <pre></pre>
 <div id="container"> 

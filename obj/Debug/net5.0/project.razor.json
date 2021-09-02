@@ -15619,6 +15619,11 @@
   "RootNamespace": "CapInternalProjEmp",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\osuribe\\OneDrive - Capgemini\\Documents\\ASP NET Core\\__Project\\CapInternalProjEmp\\Views\\Employee\\Edit.cshtml",
+      "TargetPath": "Views\\Employee\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\osuribe\\OneDrive - Capgemini\\Documents\\ASP NET Core\\__Project\\CapInternalProjEmp\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -15636,6 +15641,11 @@
     {
       "FilePath": "c:\\Users\\osuribe\\OneDrive - Capgemini\\Documents\\ASP NET Core\\__Project\\CapInternalProjEmp\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\osuribe\\OneDrive - Capgemini\\Documents\\ASP NET Core\\__Project\\CapInternalProjEmp\\Views\\Employee\\Details.cshtml",
+      "TargetPath": "Views\\Employee\\Details.cshtml",
       "FileKind": "mvc"
     },
     {

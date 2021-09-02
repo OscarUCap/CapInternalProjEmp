@@ -21,6 +21,24 @@ namespace CapInternalProjEmp.Controllers
             return View(model);
         }
 
+        public ViewResult Details(int id){
+            Employee employee = _employeeRepository.GetEmployee(id);
+            return View(employee); 
+        }
+
+        [HttpGet]
+        public ViewResult Edit(int id){
+            Employee employee = _employeeRepository.GetEmployee(id);
+            return View(employee);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(Employee employee){
+            _employeeRepository.UpdateEmployee(employee);
+            //_employeeRepository.AddEmployee(employee);
+            return RedirectToAction("List");
+        }
+
 
         [HttpGet]
         public ViewResult Create(){
@@ -37,6 +55,14 @@ namespace CapInternalProjEmp.Controllers
             }
 
             return View();
+        }
+
+
+
+        [HttpGet]
+        public IActionResult Delete(int id){
+            _employeeRepository.Delete(id);
+            return RedirectToAction("List");
         }
 
 
