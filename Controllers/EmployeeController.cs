@@ -1,6 +1,11 @@
 using CapInternalProjEmp.Models;
 using CapInternalProjEmp.Infra;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using System.IO;
+using Ganss.Excel;
 
 namespace CapInternalProjEmp.Controllers
 {
@@ -14,6 +19,40 @@ namespace CapInternalProjEmp.Controllers
             _employeeRepository = employeeRepository;
         }
 
+
+        public IActionResult DownloadTemplate(){
+
+
+            // var employees = new List<Employee>
+            // {
+            //     new Employee() { Id = 1, Name = "Mary", Department = Dept.None, Email = "mary@cap.com" },
+            //     new Employee() { Id = 2, Name = "John", Department = Dept.JrDev, Email = "john@cap.com" },
+            //     new Employee() { Id = 3, Name = "Sam", Department = Dept.Director, Email = "sam@cap.com" }
+            // };
+
+            new ExcelMapper().Save("employeesTemplate.xlsx", _employeeRepository.GetAllEmployees(), "Employees");
+
+            var employees = new ExcelMapper("employeesTemplate.xlsx").Fetch<Employee>();
+
+            foreach(var employee in employees){
+                _employeeRepository.AddEmployee(employee);
+            }
+
+            return RedirectToAction("List");
+        }
+
+
+//////////////////////////////////////////
+        // public async Task<IActionResult> Import(IFormFile file){
+
+        //     var employees = new List<Employee>();
+
+        //     using (var stream = new MemoryStream()){
+        //         await file.CopyToAsync(stream);
+
+        //     }
+        // }
+/////////////////////////////////////////////
 
         public ViewResult List()
         {

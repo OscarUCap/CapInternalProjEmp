@@ -1,0 +1,60 @@
+
+
+@{
+    ViewBag.Title = "Import excel file";
+}
+
+
+<br>
+
+@* In an html tag, "id" is to reference the element from within the page *@
+@* An html "id" element MUST be unique to the page to avoid conflicts *@
+@* The "name" element is used to reference the form-data after submitting *@
+
+<div id="ref">
+    <form method="post" asp-controller="Employee" asp-action="Import" enctype="multipart/form-data">
+        <input type="file" class="form-control-file" id="example1"/>
+        <input type="file" name="file" class="btn-secondary"/>
+        <button type="submit" class="btn btn-success">Import file to list</button>
+    </form>
+
+</div>
+
+<br>
+<br>
+  
+<div id="container">
+    <form method="post" asp-controller="Home" asp-action="Import" enctype="multipart/form-data">
+        <input type="file" name="file"/>
+        <button type="submit", class = "btn-success">Import from Excel</button>
+    </form>
+</div>
+<br>
+<div>
+    Inorder to import properly make sure your file follows the below layout or it may fail to import.
+</div>
+<br>
+<br>
+<div class ="row">
+    <div class ="col-md-12">
+        <table class="table">
+                <tr>
+                    <td>A:1 Name</td>
+                    <td>B:1 Role</td>
+                    <td>C:1 Email</td>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>A:2 ExampleName</td>
+                    <td>B:2 ExampleRole</td>
+                    <td>C:2 ExampleEmail</td>
+                </tr>
+                <tr>
+                    <td>A: ... More Names</td>
+                    <td>B: ... More Roles</td>
+                    <td>C: ... More Emails</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
