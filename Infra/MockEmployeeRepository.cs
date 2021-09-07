@@ -11,9 +11,9 @@ namespace CapInternalProjEmp.Infra
 
         public MockEmployeeRepository(){
             _employeeList = new List<Employee>(){
-                new Employee() { Id = 1, Name = "Mary", Department = Dept.None, Email = "mary@cap.com" },
-                new Employee() { Id = 2, Name = "John", Department = Dept.None, Email = "john@cap.com" },
-                new Employee() { Id = 3, Name = "Sam", Department = Dept.None, Email = "sam@cap.com" }
+                new Employee() { Id = 1, Name = "Mary", Department = Dept.IT, Email = "mary@cap.com" },
+                new Employee() { Id = 2, Name = "John", Department = Dept.SrDev, Email = "john@cap.com" },
+                new Employee() { Id = 3, Name = "Sam", Department = Dept.IT, Email = "sam@cap.com" }
             };
         }
 

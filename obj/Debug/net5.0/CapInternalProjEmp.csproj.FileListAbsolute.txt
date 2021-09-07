@@ -75,3 +75,12 @@ C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapIntern
 C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapInternalProjEmp\obj\Debug\net5.0\Razor\Views\Employee\Create.cshtml.g.cs
 C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapInternalProjEmp\obj\Debug\net5.0\Razor\Views\Employee\Edit.cshtml.g.cs
 C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapInternalProjEmp\obj\Debug\net5.0\Razor\Views\Employee\Details.cshtml.g.cs
+C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapInternalProjEmp\obj\Debug\net5.0\Razor\Views\Employee\Import.cshtml.g.cs
+C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapInternalProjEmp\bin\Debug\net5.0\ExcelMapper.dll
+C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapInternalProjEmp\bin\Debug\net5.0\NPOI.OOXML.dll
+C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapInternalProjEmp\bin\Debug\net5.0\NPOI.OpenXml4Net.dll
+C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapInternalProjEmp\bin\Debug\net5.0\NPOI.OpenXmlFormats.dll
+C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapInternalProjEmp\bin\Debug\net5.0\NPOI.dll
+C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapInternalProjEmp\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapInternalProjEmp\bin\Debug\net5.0\ICSharpCode.SharpZipLib.dll
+C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapInternalProjEmp\bin\Debug\net5.0\System.Text.Json.dll
