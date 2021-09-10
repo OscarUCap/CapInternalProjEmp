@@ -26,9 +26,9 @@ ID: @Model.Id
 
             </div>
             <div class="card-footer text-center">
-                <a asp-controller="Employee" asp-action="list" class="btn btn-primary">Back</a>
-                <a asp-controller="Employee" asp-action="edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
-                <a asp-controller="Employee" asp-action="delete" asp-route-id="@Model.Id" class="btn btn-danger">Delete</a>
+                <a asp-controller="Employee" asp-action="List" class="btn btn-primary">Back</a>
+                <a asp-controller="Employee" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+                <a asp-controller="Employee" asp-action="DeleteConfirm" asp-route-id="@Model.Id" class="btn btn-danger">Delete</a>
             </div>
         </div>
     </div>

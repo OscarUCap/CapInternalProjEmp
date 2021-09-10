@@ -84,3 +84,4 @@ C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapIntern
 C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapInternalProjEmp\bin\Debug\net5.0\BouncyCastle.Crypto.dll
 C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapInternalProjEmp\bin\Debug\net5.0\ICSharpCode.SharpZipLib.dll
 C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapInternalProjEmp\bin\Debug\net5.0\System.Text.Json.dll
+C:\Users\osuribe\OneDrive - Capgemini\Documents\ASP NET Core\__Project\CapInternalProjEmp\obj\Debug\net5.0\Razor\Views\Employee\DeleteConfirm.cshtml.g.cs

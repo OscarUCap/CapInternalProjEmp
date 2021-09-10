@@ -15659,6 +15659,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\osuribe\\OneDrive - Capgemini\\Documents\\ASP NET Core\\__Project\\CapInternalProjEmp\\Views\\Employee\\DeleteConfirm.cshtml",
+      "TargetPath": "Views\\Employee\\DeleteConfirm.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\osuribe\\OneDrive - Capgemini\\Documents\\ASP NET Core\\__Project\\CapInternalProjEmp\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"

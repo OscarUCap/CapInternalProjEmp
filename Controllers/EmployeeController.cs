@@ -68,14 +68,18 @@ namespace CapInternalProjEmp.Controllers
         [HttpGet]
         public ViewResult Edit(int id){
             Employee employee = _employeeRepository.GetEmployee(id);
+            ViewBag.Employee = employee;
             return View(employee);
         }
 
         [HttpPost]
         public IActionResult Edit(Employee employee){
-            _employeeRepository.UpdateEmployee(employee);
-            //_employeeRepository.AddEmployee(employee);
-            return RedirectToAction("List");
+            if(ModelState.IsValid){
+                _employeeRepository.UpdateEmployee(employee);
+                return RedirectToAction("List");
+            }
+            return View();
+            //return RedirectToAction("Edit", new { id = employee.Id });
         }
 
 
@@ -86,13 +90,13 @@ namespace CapInternalProjEmp.Controllers
 
         [HttpPost]
         public IActionResult Create(Employee employee){
-            
+
             if(ModelState.IsValid){
                 Employee newEmployee = _employeeRepository.AddEmployee(employee);
                 return RedirectToAction("List");
                 //return RedirectToAction("Details", new { id = newEmployee.Id });
             }
-
+            System.Console.WriteLine("Invalid create model");
             return View();
         }
 
@@ -102,6 +106,11 @@ namespace CapInternalProjEmp.Controllers
         public IActionResult Delete(int id){
             _employeeRepository.Delete(id);
             return RedirectToAction("List");
+        }
+
+        [HttpGet]
+        public IActionResult DeleteConfirm(int id){
+            return View(_employeeRepository.GetEmployee(id));
         }
 
 
